@@ -1,0 +1,82 @@
+html {
+    font-size: 62.5%; // 1rem is 10px
+}
+
+body{
+    background-color: #25274D;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a{
+    display: block;
+    width: 6rem;
+}
+
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: rgb(49, 141, 202);
+}
+
+.name-info{
+    position: relative;
+    // align-self: auto;
+    margin-right: 80rem;
+    margin-top: 10rem;
+    border: 1px dotted  #AAABB8;
+    border-radius: 30px;
+    padding: 1rem;
+}
+
+.greeting{
+    color: #EDF0D6;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.name{
+    font-size: 8rem;
+    margin-bottom: 2rem;
+    color: rgb(237, 241, 205);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.greeting-desc1{
+    color: rgb(49, 141, 202);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 1rem;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'montserrat';
+}
+
+body {
+    overflow-x: hidden;
+    font-weight: normal;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.app {
+    margin-top: 2rem;
+    display: grid;
+    justify-items: center;
+}
