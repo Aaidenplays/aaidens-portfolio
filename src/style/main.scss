@@ -25,13 +25,10 @@ li a{
 }
 
 .name-info{
-    position: relative;
-    // align-self: auto;
-    margin-right: 80rem;
-    margin-top: 10rem;
     border: 1px dotted  #AAABB8;
     border-radius: 30px;
     padding: 1rem;
+    // padding-right: 10px;
 }
 
 .greeting{
@@ -79,4 +76,22 @@ body {
     margin-top: 2rem;
     display: grid;
     justify-items: center;
+}
+
+.bio{
+    border: 1px dotted;
+    padding: 25px;
+    border-radius: 6rem;
+    color: white;
+    margin-bottom: -59rem;
+    font-size: medium;
+}
+
+.about{
+    border: 2px solid;
+    color: white;
+    border-radius: 6px;
+    padding: 10px;;
+    height: 85rem;
+    // margin-bottom: auto;
 }

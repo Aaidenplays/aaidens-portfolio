@@ -8,7 +8,7 @@ export class NameInfo extends Component {
           <h2 className='greeting'>Hello my name is</h2>
           <h1 className='name'>Aaiden Witten</h1>
           <h3 className='greeting-desc1'>
-            I am a fullstack web developer located in San Antonio Texas
+            I am a fullstack web developer
           </h3>
         </div>
     )
