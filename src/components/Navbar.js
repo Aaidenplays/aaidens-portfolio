@@ -3,13 +3,21 @@ import React, { Component } from 'react'
 export class Navbar extends Component {
     render() {
         return (
-            <div className='nav'>
-                <ul>
-                    <li> <a href='#about'>About</a></li>
-                    <li>Experience</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
-                </ul>
+            <div className='nav container'>
+                <div className="row nav-elements">
+                    <div className="col nav-element">
+                        <a href='#about'>About</a>
+                    </div>
+                    <div className="col nav-element">
+                        <a href='#Experience'>Experience</a>
+                    </div>
+                    <div className="col nav-element">
+                        <a href='#Projects'>Projects</a>
+                    </div>
+                    <div className="col nav-element">
+                        <a href='#Contact'>Contacts</a>
+                    </div>
+                </div>
             </div>
         )
     }

@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import NameInfo from './NameInfo';
 import Navbar from './Navbar';
 import Bio from './Bio'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import Experience from './Experience';
+import { SocialIcon } from 'react-social-icons';
+
+
 
 export default class App extends Component {
   render() {
@@ -16,8 +16,14 @@ export default class App extends Component {
           <div className="row justify-dontent-between about">
             <div className="col-6 ">
               <NameInfo />
+              <img className="bio-pic" src={require("../../static/assets/pictures/AW201921.jpg")}/>
             </div>
             <div className="col-5">
+              <div className="social-media">
+                <SocialIcon url="https://dev.to/aaidenplays" /> 
+                <SocialIcon url="https://github.com/Aaidenplays" /> 
+                <SocialIcon url="https://linkedin.com/in/aaiden-witten/" /> 
+              </div>
               <Bio />
               {/* <Experience /> */}
             </div>

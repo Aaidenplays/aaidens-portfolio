@@ -4,7 +4,7 @@ export class NameInfo extends Component {
   render () {
     return (
         <div className='name-info'>
-        <h1><a id='about'>About</a></h1>
+        <h1><a id='about' className="about-title" >About</a></h1>
           <h2 className='greeting'>Hello my name is</h2>
           <h1 className='name'>Aaiden Witten</h1>
           <h3 className='greeting-desc1'>

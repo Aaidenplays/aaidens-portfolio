@@ -78,6 +78,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.26.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "react-social-icons": "^4.1.0",
     "uglifyjs-webpack-plugin": "^1.2.7",
     "webpack": "^4.16.4"
   }
