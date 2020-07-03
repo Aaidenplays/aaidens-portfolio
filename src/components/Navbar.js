@@ -6,7 +6,7 @@ export class Navbar extends Component {
             <div className='nav container'>
                 <div className="row nav-elements">
                     <div className="col nav-element">
-                        <a href='#about'>About</a>
+                        <a href='#About'>About</a>
                     </div>
                     <div className="col nav-element">
                         <a href='#Experience'>Experience</a>

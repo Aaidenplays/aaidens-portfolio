@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Bio from './Bio'
 import Experience from './Experience';
 import { SocialIcon } from 'react-social-icons';
+import Project from './Project';
 
 
 
@@ -27,6 +28,12 @@ export default class App extends Component {
               <Bio />
               {/* <Experience /> */}
             </div>
+          </div>
+          <div className="row">
+            <Experience />
+          </div>
+          <div className="row">
+            <Project />
           </div>
         </div>
       </div>
