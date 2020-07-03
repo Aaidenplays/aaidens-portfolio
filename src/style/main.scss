@@ -29,6 +29,15 @@ li a{
     margin: 0;
     padding: 0;
     color: rgb(49, 141, 202);
+    position: fixed;
+    width: 150%;
+    margin-left: -20px;
+    right: 5rem;
+    z-index: 1;
+    // top: -10rem;
+    // text-align: center;
+    // margin-right: -50px;
+    // padding-right: -20px;
 }
 
 .nav-elements{
@@ -123,6 +132,7 @@ body {
     background-color: rgba(128, 128, 128, 0.269);
     display: flex;
     flex-direction: column;
+    margin-top: 5rem;
     // position: absolute;
 }
 
