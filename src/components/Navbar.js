@@ -6,16 +6,16 @@ export class Navbar extends Component {
             <div className='nav container'>
                 <div className="row nav-elements">
                     <div className="col nav-element">
-                        <a href='#About'>About</a>
+                        <a className="btn from-center" href='#About'>About</a>
                     </div>
                     <div className="col nav-element">
-                        <a href='#Experience'>Experience</a>
+                        <a className="btn from-center" href='#Experience'>Experience</a>
                     </div>
                     <div className="col nav-element">
-                        <a href='#Projects'>Projects</a>
+                        <a className="btn from-center" href='#Projects'>Projects</a>
                     </div>
                     <div className="col nav-element">
-                        <a href='#Contact'>Contacts</a>
+                        <a className="btn from-center" href='#Contact'>Contacts</a>
                     </div>
                 </div>
             </div>

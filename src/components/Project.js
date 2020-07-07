@@ -21,7 +21,7 @@ export class Experience extends Component {
             Projects
           </a>
         </h1>
-        <Accordion defaultActiveKey='0'>
+        <Accordion >
           <Card className="acc">
             <Card.Header>
               <CustomToggle eventKey='0'>Online Music Academy</CustomToggle>

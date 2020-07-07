@@ -21,9 +21,9 @@ export default class App extends Component {
             </div>
             <div className="col-5">
               <div className="social-media">
-                <SocialIcon url="https://dev.to/aaidenplays" /> 
                 <SocialIcon url="https://github.com/Aaidenplays" /> 
                 <SocialIcon url="https://linkedin.com/in/aaiden-witten/" /> 
+                <SocialIcon url="https://dev.to/aaidenplays" /> 
               </div>
               <Bio />
               {/* <Experience /> */}
