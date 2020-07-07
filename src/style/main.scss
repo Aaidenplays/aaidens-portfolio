@@ -130,7 +130,6 @@ body {
     flex-direction: column;
     margin-top: 5rem;
     align-content: center;
-
 }
 
 .bio-pic{
@@ -163,14 +162,6 @@ body {
     opacity: 70%;
 }
 
-.experience-container{
-    border: 2px solid white;
-    height: 50rem;
-    width: 100%;
-    background-color: rgba(128, 128, 128, 0.269);
-    border-radius: 6px;
-    margin-top: 5rem;
-}
 
 .project-container{
     border: 2px solid white;
@@ -184,6 +175,40 @@ body {
 
 .acc{
     background-color: rgba(128, 128, 128, 0.269);
+}
+
+/* Experience Styling */
+.experience-container{
+    border: 2px solid white;
+    height: 50rem;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.269);
+    border-radius: 6px;
+    margin-top: 5rem;
+}
+
+.exp-title{
+    margin-bottom: 5rem;
+    // display: inline-block;
+    display: flex;
+    text-align: center;
+    margin-left: 3px;
+}
+.exp-pic{
+    max-width: 200px;
+    height: 120px;
+    display: flex inline-block;
+    // padding-left: 40px;
+    // padding-inline: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.exp-rw{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 8rem;
+    justify-content: center;
 }
 
 /* effect found online */

@@ -9,10 +9,10 @@ export class Navbar extends Component {
                         <a className="btn from-center" href='#About'>About</a>
                     </div>
                     <div className="col nav-element">
-                        <a className="btn from-center" href='#Experience'>Experience</a>
+                        <a className="btn from-center" href='#Projects'>Projects</a>
                     </div>
                     <div className="col nav-element">
-                        <a className="btn from-center" href='#Projects'>Projects</a>
+                        <a className="btn from-center" href='#Experience'>Experience</a>
                     </div>
                     <div className="col nav-element">
                         <a className="btn from-center" href='#Contact'>Contacts</a>

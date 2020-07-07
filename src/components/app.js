@@ -23,17 +23,17 @@ export default class App extends Component {
               <div className="social-media">
                 <SocialIcon url="https://github.com/Aaidenplays" /> 
                 <SocialIcon url="https://linkedin.com/in/aaiden-witten/" /> 
-                <SocialIcon url="https://dev.to/aaidenplays" /> 
+                <SocialIcon url="https://dev.to/aaidenplays"/> 
               </div>
               <Bio />
               {/* <Experience /> */}
             </div>
           </div>
           <div className="row">
-            <Experience />
+            <Project />
           </div>
           <div className="row">
-            <Project />
+            <Experience />
           </div>
         </div>
       </div>
