@@ -38,6 +38,15 @@ export class Experience extends Component {
                             <img className="tech-pic col" src={require("../../static/assets/pictures/ReactBoot-logo.png")}/>
                         </div>
                     </div>
+                    <div className="proj-desc">
+                        <h3>An app to help music instructors assign video challenges for their students.</h3><br/>
+                        <ul>
+                            <li>Utilized a React frontend to create a modern look and feel to the program</li><br/>
+                            <li>Implemented authentication with HTTP web tokens allowing users to sign-up and sign-in</li><br/>
+                            <li>Incorporated react-bootstrap for styling the web app</li><br/>
+                            <li>Built a Rails API to persist data in the backend</li><br/>
+                        </ul>
+                    </div>
                 </div>               
                 <div className="col-md-7">
                     <ReactPlayer url={this.demoVideos.musicAcademy} />
@@ -52,7 +61,30 @@ export class Experience extends Component {
             </Card.Header>
             <Accordion.Collapse eventKey='1'>
               <Card.Body>
-              <ReactPlayer url={this.demoVideos.jamdom} />
+              <div className="row">
+              <div className="col-md-4">
+                    <div className="tech-container">
+                        <div className="scrolling-techs">
+                            <img className="tech-pic col" src={require("../../static/assets/pictures/RoR-logo.png")}/>
+                            <img className="tech-pic col" src={require("../../static/assets/pictures/React-logo.png")}/>
+                            <img className="tech-pic col" src={require("../../static/assets/pictures/Postgresql-logo.jpg")}/>
+                            <img className="tech-pic col" src={require("../../static/assets/pictures/ReactBoot-logo.png")}/>
+                        </div>
+                    </div>
+                    <div className="proj-desc">
+                        <h3>An app to help music instructors assign video challenges for their students.</h3><br/>
+                        <ul>
+                            <li>Utilized a React frontend to create a modern look and feel to the program</li><br/>
+                            <li>Implemented authentication with HTTP web tokens allowing users to sign-up and sign-in</li><br/>
+                            <li>Incorporated react-bootstrap for styling the web app</li><br/>
+                            <li>Built a Rails API to persist data in the backend</li><br/>
+                        </ul>
+                    </div>
+                </div>               
+                <div className="col-md-7">
+                    <ReactPlayer url={this.demoVideos.jamdom} />
+                </div>
+                </div>
               </Card.Body>
             </Accordion.Collapse>
           </Card>
@@ -62,7 +94,31 @@ export class Experience extends Component {
             </Card.Header>
             <Accordion.Collapse eventKey='2'>
               <Card.Body>
-              <ReactPlayer url={this.demoVideos.memoryIron} />
+              <div className="row">
+                <div className="col-md-4">
+                    <div className="tech-container">
+                        <div className="scrolling-techs">
+                            <img className="tech-pic col" src={require("../../static/assets/pictures/RoR-logo.png")}/>
+                            <img className="tech-pic col" src={require("../../static/assets/pictures/React-logo.png")}/>
+                            <img className="tech-pic col" src={require("../../static/assets/pictures/Postgresql-logo.jpg")}/>
+                            <img className="tech-pic col" src={require("../../static/assets/pictures/ReactBoot-logo.png")}/>
+                        </div>
+                    </div>
+                    <div className="proj-desc">
+                        <h3>An app to help music instructors assign video challenges for their students.</h3><br/>
+                        <ul>
+                            <li>Utilized a React frontend to create a modern look and feel to the program</li><br/>
+                            <li>Implemented authentication with HTTP web tokens allowing users to sign-up and sign-in</li><br/>
+                            <li>Incorporated react-bootstrap for styling the web app</li><br/>
+                            <li>Built a Rails API to persist data in the backend</li><br/>
+                        </ul>
+                    </div>
+                </div>       
+                    <div className="col-md-7">
+            
+                        <ReactPlayer url={this.demoVideos.memoryIron} />
+                    </div>
+                </div>
               </Card.Body>
             </Accordion.Collapse>
           </Card>
