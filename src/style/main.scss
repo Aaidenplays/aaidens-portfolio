@@ -212,12 +212,22 @@ body {
 }
 
 /* project styling */
+.tech-container{
+    height: 40px;
+    width: 150px;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 120px;
+    align-self: center;
+    // margin
+}
 .scrolling-techs{
-    overflow-x: scroll;
-    overflow-y: hidden;
+    // overflow-x: ;
+    // overflow-y: hidden;
     white-space: nowrap;
     max-height: 60px;
     max-width: 100px;
+    padding-left: 20px;
     -webkit-animation-name: move;
     -webkit-animation-duration: 4s;
     -webkit-animation-iteration-count: infinite;
@@ -227,10 +237,10 @@ body {
 
 @-webkit-keyframes move {
         0%{
-            margin-left: -400px;
+            margin-left: -300px;
         }
         100%{
-            margin-left: 800px;
+            margin-left: 130px;
         }
 }
 

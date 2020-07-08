@@ -30,11 +30,15 @@ export class Experience extends Component {
               <Card.Body >
               <div className="row">
                 <div className="col-md-4">
-                    <div className="scrolling-techs">
-                        <img className="tech-pic col" src={require("../../static/assets/pictures/RoR-logo.png")}/>
-                        <img className="tech-pic col" src={require("../../static/assets/pictures/React-logo.png")}/>
+                    <div className="tech-container">
+                        <div className="scrolling-techs">
+                            <img className="tech-pic col" src={require("../../static/assets/pictures/RoR-logo.png")}/>
+                            <img className="tech-pic col" src={require("../../static/assets/pictures/React-logo.png")}/>
+                            <img className="tech-pic col" src={require("../../static/assets/pictures/Postgresql-logo.jpg")}/>
+                            <img className="tech-pic col" src={require("../../static/assets/pictures/ReactBoot-logo.png")}/>
+                        </div>
                     </div>
-                </div>
+                </div>               
                 <div className="col-md-7">
                     <ReactPlayer url={this.demoVideos.musicAcademy} />
                 </div>
