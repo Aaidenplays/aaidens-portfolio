@@ -66,18 +66,17 @@ export class Experience extends Component {
                     <div className="tech-container">
                         <div className="scrolling-techs">
                             <img className="tech-pic col" src={require("../../static/assets/pictures/RoR-logo.png")}/>
-                            <img className="tech-pic col" src={require("../../static/assets/pictures/React-logo.png")}/>
-                            <img className="tech-pic col" src={require("../../static/assets/pictures/Postgresql-logo.jpg")}/>
-                            <img className="tech-pic col" src={require("../../static/assets/pictures/ReactBoot-logo.png")}/>
+                            <img className="tech-pic col" src={require("../../static/assets/pictures/Sql-logo.jpg")}/>
+                            <img className="tech-pic col" src={require("../../static/assets/pictures/css-logo.png")}/>
+                            <img className="tech-pic col" src={require("../../static/assets/pictures/html-logo.png")}/>
                         </div>
                     </div>
                     <div className="proj-desc">
-                        <h3>An app to help music instructors assign video challenges for their students.</h3><br/>
+                        <h3>Provides a platform for musicians to link up and organize jam sessions.</h3><br/>
                         <ul>
-                            <li>Utilized a React frontend to create a modern look and feel to the program</li><br/>
-                            <li>Implemented authentication with HTTP web tokens allowing users to sign-up and sign-in</li><br/>
-                            <li>Incorporated react-bootstrap for styling the web app</li><br/>
-                            <li>Built a Rails API to persist data in the backend</li><br/>
+                            <li>Utilized Ruby-on-Rails, bootstrap styling, and sqlite3 database</li><br/>
+                            <li>Implemented dynamic friend invitation features to associate users with one another</li><br/>
+                            <li>Incorporated custom CSS styling to improve user interaction</li><br/>
                         </ul>
                     </div>
                 </div>               
@@ -105,12 +104,11 @@ export class Experience extends Component {
                         </div>
                     </div>
                     <div className="proj-desc">
-                        <h3>An app to help music instructors assign video challenges for their students.</h3><br/>
+                        <h3>A fun card matching game!</h3><br/>
                         <ul>
-                            <li>Utilized a React frontend to create a modern look and feel to the program</li><br/>
-                            <li>Implemented authentication with HTTP web tokens allowing users to sign-up and sign-in</li><br/>
-                            <li>Incorporated react-bootstrap for styling the web app</li><br/>
-                            <li>Built a Rails API to persist data in the backend</li><br/>
+                            <li>Programmed frontend animations and sound effects with React making the game more interactive for users</li><br/>
+                            <li>Implemented PostgreSQL and Rails to persist data on the backend</li><br/>
+                            <li>Utilized Semantic-UI and React libraries to improve the user experience through styling</li><br/>
                         </ul>
                     </div>
                 </div>       
