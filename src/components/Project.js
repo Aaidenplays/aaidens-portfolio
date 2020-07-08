@@ -28,7 +28,17 @@ export class Experience extends Component {
             </Card.Header>
             <Accordion.Collapse eventKey='0'>
               <Card.Body >
-              <ReactPlayer url={this.demoVideos.musicAcademy} />
+              <div className="row">
+                <div className="col-md-4">
+                    <div className="scrolling-techs">
+                        <img className="tech-pic col" src={require("../../static/assets/pictures/RoR-logo.png")}/>
+                        <img className="tech-pic col" src={require("../../static/assets/pictures/React-logo.png")}/>
+                    </div>
+                </div>
+                <div className="col-md-7">
+                    <ReactPlayer url={this.demoVideos.musicAcademy} />
+                </div>
+              </div>
               </Card.Body>
             </Accordion.Collapse>
           </Card>
