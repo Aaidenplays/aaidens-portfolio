@@ -221,28 +221,6 @@ li a{
     align-self: center;
     // margin
 }
-.scrolling-techs{
-    // overflow-x: ;
-    // overflow-y: hidden;
-    white-space: nowrap;
-    max-height: 60px;
-    max-width: 100px;
-    padding-left: 20px;
-    -webkit-animation-name: move;
-    -webkit-animation-duration: 4s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: left;
-    -webkit-animation-timing-function: linear;
-}
-
-@-webkit-keyframes move {
-        0%{
-            margin-left: -300px;
-        }
-        100%{
-            margin-left: 130px;
-        }
-}
 
 .proj-desc{
     color: white;
@@ -345,4 +323,27 @@ li a{
 .from-center:hover:after {
 	top: 0;
 	height: 100%;
+}
+
+.scrolling-techs{
+    // overflow-x: ;
+    // overflow-y: hidden;
+    white-space: nowrap;
+    max-height: 60px;
+    max-width: 100px;
+    padding-left: 20px;
+    -webkit-animation-name: move;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: left;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes move {
+        0%{
+            margin-left: -300px;
+        }
+        100%{
+            margin-left: 130px;
+        }
 }
