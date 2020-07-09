@@ -5,12 +5,12 @@ html {
 }
 
 body{
-    --def: #000000; 	
-	--inv: #fff;
-	display: flex;
+    display: flex;
 	justify-content: center;
 	align-items: center;
     background-color: #25274D;
+    --def: #000000; 	
+    --inv: #fff;
 }
 
 ul{
