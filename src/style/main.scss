@@ -143,34 +143,34 @@ body {
 }
 
 .social-media{
-    margin-right: 10px;
-    margin-top: 90px;
-    display: flex;
-    justify-content: space-between;
-    width: 20rem;
-    margin-left: 14rem;
-    text-align: center;
+    margin-right: 10px !important;
+    margin-top: 90px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 20rem !important;
+    margin-left: 14rem !important;
+    text-align: center !important;
 }
 
 .about-title{
-    border: 1px white solid;
-    border-radius: 6px;
-    background-color: rgb(49, 141, 202);
-    opacity: 30%;
+    border: 1px white solid !important;
+    border-radius: 6px !important;
+    background-color: rgb(49, 141, 202) !important;
+    opacity: 30% !important;
 }
 .about-title:hover{
-    opacity: 70%;
+    opacity: 70% !important;
 }
 
 
 .project-container{
-    border: 2px solid white;
-    height: 50rem;
-    width: 100%;
+    border: 2px solid white !important;
+    height: 50rem !important;
+    width: 100% !important;
     background-color: rgba(128, 128, 128, 0.269) !important;
-    border-radius: 6px;
-    margin-top: 5rem;
-    overflow-y: scroll;
+    border-radius: 6px !important;
+    margin-top: 5rem !important;
+    overflow-y: scroll !important;
 }
 
 .acc{
@@ -179,62 +179,62 @@ body {
 
 /* Experience Styling */
 .experience-container{
-    border: 2px solid white;
-    height: 65rem;
-    width: 100%;
-    background-color: rgba(128, 128, 128, 0.269);
-    border-radius: 6px;
-    margin-top: 5rem;
+    border: 2px solid white !important;
+    height: 65rem !important;
+    width: 100% !important;
+    background-color: rgba(128, 128, 128, 0.269) !important;
+    border-radius: 6px !important;
+    margin-top: 5rem !important;
 }
 
 .exp-title{
-    margin-bottom: 5rem;
+    margin-bottom: 5rem !important;
     // display: inline-block;
-    display: flex;
-    text-align: center;
-    margin-left: 3px;
+    display: flex !important;
+    text-align: center !important;
+    margin-left: 3px !important;
 }
 .exp-pic{
-    margin-top: 7px;
-    max-width: 250px;
-    width: 320px;
-    height: 150px;
-    display: flex inline-block;
+    margin-top: 7px !important;
+    max-width: 250px !important;
+    width: 320px !important;
+    height: 150px !important;
+    display: flex inline-block !important;
     // padding-left: 40px;
     // padding-inline: 20px;
-    display: flex;
-    justify-content: space-around;
+    display: flex !important;
+    justify-content: space-around !important;
 }
 
 .exp-rw{
-    margin-left: 10rem;
-    margin-right: 10rem;
-    margin-top: 8rem;
-    justify-content: center;
+    margin-left: 10rem !important;
+    margin-right: 10rem !important;
+    margin-top: 8rem !important;
+    justify-content: center !important;
 }
 
 .exp-desc-left{
-    height: 160px;
-    width: 300px;
-    border: dotted 2px white;
-    border-radius: 3rem;
+    height: 160px !important;
+    width: 300px !important;
+    border: dotted 2px white !important;
+    border-radius: 3rem !important;
 }
 
 .exp-desc-right{
-    height: 160px;
-    width: 300px;
-    border: dotted 2px white;
-    border-radius: 3rem;
+    height: 160px !important;
+    width: 300px !important;
+    border: dotted 2px white !important;
+    border-radius: 3rem !important;
 }
 
 /* project styling */
 .tech-container{
-    height: 40px;
-    width: 150px;
-    overflow: hidden;
-    margin-top: 30px;
-    margin-left: 120px;
-    align-self: center;
+    height: 40px !important;
+    width: 150px !important;
+    overflow: hidden !important;
+    margin-top: 30px !important;
+    margin-left: 120px !important;
+    align-self: center !important;
     // margin
 }
 .scrolling-techs{
@@ -244,27 +244,27 @@ body {
     max-height: 60px !important;
     max-width: 100px !important;
     padding-left: 20px !important;
-    -webkit-animation-name: move;
-    -webkit-animation-duration: 4s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: left;
-    -webkit-animation-timing-function: linear;
+    -webkit-animation-name: move ;
+    -webkit-animation-duration: 4s ;
+    -webkit-animation-iteration-count: infinite ;
+    -webkit-animation-direction: left ;
+    -webkit-animation-timing-function: linear ;
 }
 
 @-webkit-keyframes move {
         0%{
-            margin-left: -300px;
+            margin-left: -300px ;
         }
         100%{
-            margin-left: 130px;
+            margin-left: 130px ;
         }
 }
 
 .proj-desc{
-    color: white;
-    margin-top: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-left: 10px;
+    color: white ;
+    margin-top: 30px ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    margin-left: 10px ;
 }
 
 .tech-pic{
