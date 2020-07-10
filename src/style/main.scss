@@ -6,8 +6,8 @@ html {
 
 body{
     background-color: #25274D;
-    --def: #000000; 	
-	--inv: #fff;
+    --def: #000000 !important; 	
+	--inv: #fff !important;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -42,7 +42,7 @@ li a{
     width: 110%;
     font-size: x-large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-left: 14px;
+    margin-left: 14px !important;
 
 }
 
@@ -96,7 +96,7 @@ li a{
 body {
     overflow-x: hidden;
     font-weight: normal;
-    background-color: #25274D;
+    background-color: #25274D !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -167,14 +167,14 @@ body {
     border: 2px solid white;
     height: 50rem;
     width: 100%;
-    background-color: rgba(128, 128, 128, 0.269);
+    background-color: rgba(128, 128, 128, 0.269) !important;
     border-radius: 6px;
     margin-top: 5rem;
     overflow-y: scroll;
 }
 
 .acc{
-    background-color: rgba(128, 128, 128, 0.269);
+    background-color: rgba(128, 128, 128, 0.269) !important;
 }
 
 /* Experience Styling */
@@ -268,97 +268,97 @@ body {
 }
 
 .tech-pic{
-    height: 40px;
-    width: 60px;
-    display: inline-block;
+    height: 40px !important;
+    width: 60px !important;
+    display: inline-block !important;
 }
 
 /* effect found online */
 .btn {		
 	// position: relative;	
-	padding: 1.4rem 4.2rem;
-	padding-right: 3.1rem;
-	font-size: 1.4rem;
-	color: var(--inv);
-	letter-spacing: 1.1rem;
-	text-transform: uppercase;
-	transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);	
-	cursor: pointer;
-	user-select: none;
+	padding: 1.4rem 4.2rem !important;
+	padding-right: 3.1rem !important;
+	font-size: 1.4rem !important;
+	color: var(--inv) !important;
+	letter-spacing: 1.1rem !important;
+	text-transform: uppercase !important;
+	transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1) !important;	
+	cursor: pointer !important;
+	user-select: none !important;
 }
 
 .btn:before, .btn:after {
-	content: '';
-	position: absolute;	
-	transition: inherit;
-	z-index: -1;
+	content: '' !important;
+	position: absolute !important;	
+	transition: inherit !important;
+	z-index: -1 !important;
 }
 
 .btn:hover {
-	color: var(--def);
-	transition-delay: .5s;
+	color: var(--def) !important;
+	transition-delay: .5s !important;
 }
 
 .btn:hover:before {
-	transition-delay: 0s;
+	transition-delay: 0s !important;
 }
 
 .btn:hover:after {
-	background: var(--inv);
-	transition-delay: .35s;
+	background: var(--inv) !important;
+	transition-delay: .35s !important;
 }
 
 /* From Left */
 
 .from-left:before, 
 .from-left:after {
-	top: 0;
-	width: 0;
-	height: 100%;
+	top: 0 !important; 
+	width: 0 !important;
+	height: 100% !important;
 }
 
 .from-left:before {
-	right: 0;
-	border: 1px solid var(--inv);
-	border-left: 0;
-	border-right: 0;	
+	right: 0 !important;
+	border: 1px solid var(--inv) !important;
+	border-left: 0 !important;
+	border-right: 0 !important;	
 }
 
 .from-left:after {
-	left: 0;
+	left: 0 !important;
 }
 
 .from-left:hover:before,
 .from-left:hover:after {
-	width: 100%;
+	width: 100% !important;
 }
 
 /* From center */
 
 .from-center:before {
-	top: 0;
-	left: 50%;
-	height: 100%;
-	width: 0;
-	border: 1px solid var(--inv);
-	border-left: 0;
-	border-right: 0;
+	top: 0 !important;
+	left: 50% !important;
+	height: 100% !important;
+	width: 0 !important;
+	border: 1px solid var(--inv) !important;
+	border-left: 0 !important;
+	border-right: 0 !important;
 }
 
 .from-center:after {
-	bottom: 0;
-	left: 0;
-	height: 0;
-	width: 100%;
-	background: var(--inv);
+	bottom: 0 !important;
+	left: 0 !important;
+	height: 0 !important;
+	width: 100% !important;
+	background: var(--inv) !important;
 }
 
 .from-center:hover:before {
-	left: 0;
-	width: 100%;
+	left: 0 !important;
+	width: 100% !important;
 }
 
 .from-center:hover:after {
-	top: 0;
-	height: 100%;
+	top: 0 !important;
+	height: 100% !important;
 }
