@@ -5,12 +5,12 @@ html {
 }
 
 body{
+    background-color: #25274D;
     --def: #000000; 	
 	--inv: #fff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-    background-color: #25274D;
 }
 
 ul{
@@ -96,7 +96,7 @@ li a{
 body {
     overflow-x: hidden;
     font-weight: normal;
-
+    background-color: #25274D;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
