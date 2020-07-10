@@ -91,6 +91,7 @@ li a{
     padding: 0;
     box-sizing: inherit;
     font-family: 'montserrat';
+    box-sizing: initial;
 }
 
 body {
@@ -269,7 +270,8 @@ body {
 
 .tech-pic{
     height: 40px !important;
-    width: 60px !important;
+    width: 80px !important;
+    max-width: 80px !important;
     display: inline-block !important;
 }
 
